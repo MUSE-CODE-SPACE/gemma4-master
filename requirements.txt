@@ -1,0 +1,12 @@
+# 1) 쉬운 로컬 경로 (텍스트·이미지·도구) — 이 강좌의 대부분이 이걸로 검증됨
+requests>=2.31
+openai>=1.50            # (선택) OpenAI 호환 비교용
+pillow>=10.0            # 이미지 인코딩
+
+# 2) 풀 멀티모달 경로 (네이티브 오디오·비디오) — chapters 03·04
+#    무거우니 필요할 때만: pip install -U transformers torch accelerate
+# transformers>=4.46
+# torch
+# accelerate
+
+pytest>=8.0
